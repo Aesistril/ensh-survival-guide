@@ -6,7 +6,7 @@
 body {
     background-image: url("/res/img/index/greengrid.jpg");
     background-repeat: repeat;
-    font-family: "FreePixel";
+    font-family: 'Times New Roman', Times, sans-serif;
 }
 
 .toplevel-container {
@@ -29,10 +29,8 @@ body {
     }
 }
 
-h1, h2, h3, h4, h5, h6, p, b, li, ul {
-    color: white;
-}
-
+h1, h2, h3, h4, h5, h6, p, b, li, ul { color: white; }
+h1, h2, h3, h4, h5, h6 { font-family: FreePixel; }
 h1 {font-size: 32px;}
 h2 {font-size: 24px;}
 
